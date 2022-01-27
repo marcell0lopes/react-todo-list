@@ -4,8 +4,11 @@
 
 ---
 
+<p align="left">
 <img style="float: left; margin:  0 4rem 4rem 0 " src="./public/mobile-preview.png">
+</p>
 <br/>
+<p>
 Esse projeto é resultado do primeiro desafio na trilha de ReactJS no curso Ignite da @Rocketseat. Nele utilizei Hooks para controlar o state dos elementos, adicionando, removendo e marcando as tarefas prontas.
 <br />
 <br />
@@ -13,7 +16,7 @@ Tomei liberdade e alterei o CSS para melhor responsividade em aparelhos pequenos
 <br />
 <br />
 
-## [Link da aplicação]()
+## [Link da aplicação](https://xenodochial-pasteur-c8a71d.netlify.app/)
 
 <br />
 <br />
@@ -29,7 +32,9 @@ I changed the CSS for better responsivity in small devices and change de color p
 <br />
 <br />
 
-## [App Link]()
+## [App Link](https://xenodochial-pasteur-c8a71d.netlify.app/)
+
+</p>
 
 ![Desktop Preview](./public/desktop-preview.png)
 
