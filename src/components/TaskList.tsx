@@ -26,32 +26,28 @@ export function TaskList() {
         isComplete: false,
       };
       setTasks([...tasks, newTaskItem]);
+      setNewTaskTitle('');
     }
   }
 
   function handleToggleTaskCompletion(id: number) {
     let allTasks = [...tasks];
-
     allTasks.find((task) => task.id === id)!.isComplete = !allTasks.find(
       (task) => task.id === id
     )?.isComplete;
-
     setTasks([...allTasks]);
   }
 
   function handleRemoveTask(id: number) {
-    // pegar o state inteiro
     let allTasks = [...tasks];
-    // filtrar tudo que não tiver o ID
     const newTasks = allTasks.filter((task) => task.id !== id);
-    // retornar o array filtrado
     setTasks([...newTasks]);
   }
 
   return (
     <section className="task-list container">
       <header>
-        <h2>Minhas tasks</h2>
+        <h2>Minhas tarefas</h2>
 
         <div className="input-group">
           <input
